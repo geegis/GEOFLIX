@@ -20,14 +20,14 @@
     margin-right: auto;
     margin-left: auto;
     background-color: rgba(255, 0, 0, 0.6);
-    width: 300px;
+    width: 200px;
     float:none;
     padding: 5px;
     text-align: center ;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
     background:-webkit-linear-gradient(left, white, rgb(240, 192, 192), rgb(241, 52, 52));
 }
 
@@ -71,7 +71,7 @@ a:active{
 
 #menu li a:hover{
     text-shadow: 1px 1px 1px red;
-    background: -webkit-linear-gradient(red, grey);
+    background: -webkit-linear-gradient(left, white, rgb(240, 192, 192), rgb(241, 52, 52));
     padding-left: 9px;
     
 }
@@ -112,7 +112,7 @@ a:active{
 }
 
 .imagem:hover{
-	transform: scale(1.1);
-    box-shadow: 0px 0px 5px;
+	transform: scale(1.2);
+    box-shadow: 0px 0px 10px;
 }
 
